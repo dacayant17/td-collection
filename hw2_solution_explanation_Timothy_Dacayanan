@@ -1,0 +1,6 @@
+My approach to this homework problem was to first handle the inputs, and assign variables.
+Next, I set up an if statement to handle the potential negative values in the inputs.
+After, the program will enter a while loop to increase the engine temperature until it reaches the required temperature for take off.
+If the difference between the engine temperature is not smaller than 1.25, the engine temperature just increases by 1.25, time increases by 1, and the program will wait for 1 second.
+Otherwise, the change in temperature is the remaining values, down to the decimals.
+After the required temperature is reached, a final result with the seconds passed, the amount of fuel used, and the amount of fuel leftover is printed.  

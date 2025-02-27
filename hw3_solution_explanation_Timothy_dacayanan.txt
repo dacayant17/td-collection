@@ -1,0 +1,19 @@
+My solution uses multiple functions and lots of switch statements to solve
+this homework problem. I used a looping function for all of the inputs,
+which would check if the input from the keyboard was the correct type. If
+the input was the correct type, the program would move on, and if it wasn't, 
+the program would loop again and ask for another input. To make it easier to
+change the given values, I set up multiple smaller functions to be called, 
+which made it easier to recieve and change inputs that were given. I believe 
+that my solution solves the homework problem because it is able to take 4 
+different inputs, handle incorrect types of inputs, and make sure that the 
+inputs are also within a certain range. Along with that, after the initial 
+inputs are recieved, the program is able to set up a basic menu that has 
+5 options, ranging from accessing current pay to quitting the program.  This
+menu is also able to handle incorrect inputs without causing an error, as well
+as end the program without issues. Regarding the current pay option, the 
+solution handles both the exact and whole number values without issues, and 
+properly rounds and casts the correct variable. A ternary operator is used for
+the manager flag, salary employees are handled correctly, and the employee ID
+is also unchangable once set. The directions for the homework are properly 
+followed, and the spacing and indentation does not make the code unreadable.

@@ -1,0 +1,13 @@
+My solution begins by asking for an integer input between 0 and 100.
+After receiving the size of the array, it initializes a nxn array, and calls the ZeroArray function to fill the matrix with 0s.
+After establishing the zero matrix, the FillArray function is called, which will populat the created array as requested.
+The function checks for the size of the matrix, if it is less than 1 the function declares an error.
+The function then checks for the limit value, which initially corresponds to the size of the array.
+This limit value represents the number of times the function will call itself.
+The function works by filling in the array from right to left and bottom to top.
+The function basically finds the column that will be filled using the limit value, and then finds the rows that must be filled by comparing the size of the array and the limit value passed into the function.
+The parts of the matrix that are found through this are then set to the limit value.
+The function then calls itself again with the same parameters, but decreasing the limit value by one.
+This repeats until the limit value is 1, where the entire left column of the array is set to one.
+This ends the recursive FillArray function.
+After this, the array is printed, skipping all 0 values.  
